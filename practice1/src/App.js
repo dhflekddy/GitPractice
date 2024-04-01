@@ -10,7 +10,7 @@ const App=()=>{
     fetch(baseUrl+'/api/todo').then(res=>res.json()).then(data=>{setData(data)});
   },[])
   console.log(todoList);
-  // console.log(todoList.id, todoList.text);
+  console.log(todoList.id, todoList.text);
   
   return(
     <div className='App'>
